@@ -3,7 +3,6 @@ require('./bootstrap');
 import { createApp } from 'vue'
 import App from "./App.vue"
 
-const app = createApp(APP)
 
-
+const app = createApp(App)
 app.mount('#app')
