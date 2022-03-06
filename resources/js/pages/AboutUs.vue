@@ -1,19 +1,16 @@
 <template>
     <div>
-        <h1>This is About Us</h1>
-        <Menu/>
-
-        <Footer/>
+        <h2>This is About Us</h2>
     </div>
 </template>
 
 <script>
-import Menu from "./components/Menu.vue"
-import Footer from "./coponents/Footer.vue"
+
+
 export default {
     components: {
-    Menu,
-    Footer,
+    
+    
   }
 }
 </script>

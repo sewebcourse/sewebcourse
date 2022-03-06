@@ -1,15 +1,18 @@
 <template>
     <div>
         <Menu/>
-        <h1>THis is first page</h1>
+        <router-view/>
+        <Footer/>
     </div>
 </template>
 
 <script>
 import Menu from "./components/Menu.vue"
+import Footer from "./components/Footer.vue"
 export default {
     components: {
-        Menu
+        Menu,
+        Footer,
     },
 }
 </script>
