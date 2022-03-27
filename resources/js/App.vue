@@ -1,18 +1,13 @@
 <template>
     <div>
-        <Menu/>
-        <router-view/>
-        <Footer/>
+        <component :is="this.$route.meta.layout">    
+            <router-view :key ='$route.params'/>
+        </component>
     </div>
 </template>
 
 <script>
-import Menu from "./components/Menu.vue"
-import Footer from "./components/Footer.vue"
 export default {
-    components: {
-        Menu,
-        Footer,
-    },
+    name: 'App',
 }
 </script>
