@@ -1,5 +1,5 @@
 <template>
     <div>
-        This is News ffgdfgdfgdfgdf
+        This is Contact us
     </div>
 </template>

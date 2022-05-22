@@ -8,10 +8,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item px-2">
-                        <router-link to="/">হোম</router-link>
+                        <router-link to="/">Home</router-link>
                     </li>
                     <li class="nav-item px-2">
-                        <router-link to="/about">আমাদের সম্পর্কে</router-link>
+                        <router-link to="/about">About Us</router-link>
                     </li>
                     <li class="nav-item px-2">
                         <router-link to="/shejra-sharif">শাজরা শরীফ</router-link>
@@ -21,6 +21,9 @@
                     </li>
                     <li class="nav-item px-2">
                         <router-link to="/admin-news"> Admin News </router-link>
+                    </li>
+                    <li class="nav-item px-2">
+                        <router-link to="/contact-us"> Contact Us </router-link>
                     </li>
                 </ul>
                 </div>

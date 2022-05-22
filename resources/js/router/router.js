@@ -11,6 +11,7 @@ import Home from "../pages/Home"
 import AboutUs from "../pages/AboutUs"
 import ShejraSharif from "../pages/ShejraSharif"
 import News from "../pages/News"
+import ContactUs from "../pages/ContactUs.vue"
 
 
 const routes = [
@@ -48,6 +49,14 @@ const routes = [
     component: AdminEvents,
     meta: { 
       layout: Admin_layout,
+      requiresAuth: false,
+    } 
+  },
+  { 
+    path: '/contact-us', 
+    component: ContactUs,
+    meta: { 
+      layout: Main_layout,
       requiresAuth: false,
     } 
   },
